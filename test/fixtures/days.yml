@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  when: 2010-06-11
+  total_tips: 1
+  person_id: 1
+
+two:
+  when: 2010-06-11
+  total_tips: 1
+  person_id: 1

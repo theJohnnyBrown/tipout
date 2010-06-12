@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  role: 1
+  timeIn: 2010-06-11 20:18:55
+  timeOut: 2010-06-11 20:18:55
+
+two:
+  role: 1
+  timeIn: 2010-06-11 20:18:55
+  timeOut: 2010-06-11 20:18:55
