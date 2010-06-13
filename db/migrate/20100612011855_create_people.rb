@@ -7,6 +7,9 @@ class CreatePeople < ActiveRecord::Migration
 
       t.timestamps
     end
+    create_table :days_people, :id => false do |t|
+      t.references :day, :person
+    end
   end
 
   def self.down

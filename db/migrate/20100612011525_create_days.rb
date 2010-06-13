@@ -3,6 +3,7 @@ class CreateDays < ActiveRecord::Migration
     create_table :days do |t|
       t.date :when
       t.integer :total_tips
+      t.integer :tipout_pct
       t.integer :person_id
 
       t.timestamps

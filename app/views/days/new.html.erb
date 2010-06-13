@@ -1,0 +1,14 @@
+<% form_for @day do |f| %>
+<%= f.error_messages %>
+
+total cash in the jar?
+<%= text_field_tag "total_tips" %><br>
+Barback tipout percent?
+<%= text_field_tag "tipout_pct" %><br>
+<% @people.each do |person| %>
+    <div class = "field">  
+      <%= check_box_tag "person_ids[]", person.id, @day.people.include?(person) %><%= person.name %>
+    </div>
+  <% end %>
+<%= f.submit 'continue' %>
+<% end %>

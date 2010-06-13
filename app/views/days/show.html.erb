@@ -1,0 +1,52 @@
+<div id = "meta">
+  Date: <%= @day.when %><br>
+  Closer <%= @day.closer %><br class = "clear"/>
+</div>
+<div id = "tip_totals">
+  <table>
+    <tr><td>Total Tips: </td><td><%= @day.total_tips %></tr></td>
+    <tr><td>10% Second Floor: </td><td><%= @day.second_floor %></td></tr>
+    <tr><td>Barback 15%: </td><td><%= @day.barback_total %></td></tr>
+    <tr><td>Net Tips: </td><td><%= @day.net_tips %></td></tr>
+    <tr><td>Bartender Hours: </td><td><%= @day.bartender_hours %></td></tr>
+    <tr><td>Bartender Tips/hour: </td><td><%= @day.bartender_hourly %></td></tr>
+    <tr><td>Barback hours: </td><td><%= @day.barback_hours %></td></tr>
+    <tr><td>Barback Tips/hour: </td><td><%= @day.barback_hourly %></td></tr>
+  </table><br class = "clear"/>
+</div>
+<div id = "tipout_table">
+  <table>
+   <tr><th>Bartenders</th>
+       <th>Time In</th>
+       <th>Time Out</th>
+       <th>Hours</th>
+       <th>Tips (after tipout)<%#this table should match the old sheet exactly for production %></th>
+   </tr>
+   <% @day.people.each do |person| %>
+     <% if person.role == Person::BARTENDER %>
+     <tr><td><%=person.name%></td>
+         <td><%=Day.hour_minute(@day.shift(person).time_in)%></td>
+         <td><%=Day.hour_minute(@day.shift(person).time_out)%></td>
+         <td><%=person.hours(@day)%></td><%#see how ugly that is? all the data in this row should come from the same model. Ideally it would come from the person.%>
+         <td><%=person.tips(@day)%></td>
+     </tr>
+     <% end %>
+   <% end %>
+   <tr><th>Barbacks</th>
+       <th>Time In</th>
+       <th>Time Out</th>
+       <th>Hours</th>
+       <th>Tips (after tipout)<%#this table should match the old sheet exactly for production %></th>
+   </tr>
+   <% @day.people.each do |person| %>
+     <% if person.role == Person::BARBACK %>
+     <tr><td><%=person.name%></td>
+         <td><%=Day.hour_minute(@day.shift(person).time_in)%></td>
+         <td><%=Day.hour_minute(@day.shift(person).time_out)%></td>
+         <td><%=person.hours(@day)%></td>
+         <td><%=person.tips(@day)%></td>
+     </tr>
+     <% end %>
+   <% end %>
+  </table>
+</div>

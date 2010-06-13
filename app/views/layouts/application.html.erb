@@ -1,0 +1,27 @@
+
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Bartender/barback tipout calculator </title>
+    <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+    <%= stylesheet_link_tag 'blueprint/print',  :media => 'print' %>
+    <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+    <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+  </head>
+  <body>
+  <div class="container">
+    <div id="header">
+        <%= image_tag("logo.png", :alt => "ACM logo?", :class => "round") %>
+        <ul class="navigation round">
+          <li><%= link_to "Home", "www.zombo.com" %></li>          
+        </ul>
+      </div>
+      <div id="content" class = "round">
+       <% flash.each do |key, value| %>
+          <div class="flash <%= key %>"><%= value %></div>
+        <% end %> 
+       <%= yield %>
+       <br class = "clear"/>
+     </div>
+  </div> 
+  </body>
+</html>
