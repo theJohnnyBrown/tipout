@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100612224425) do
+ActiveRecord::Schema.define(:version => 20100613030057) do
 
   create_table "days", :force => true do |t|
     t.date     "when"
@@ -30,12 +30,12 @@ ActiveRecord::Schema.define(:version => 20100612224425) do
   create_table "shifts", :force => true do |t|
     t.integer  "day_id"
     t.integer  "person_id"
-    t.time     "time_in"
-    t.time     "time_out"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "closing_barback"
     t.boolean  "second_floor"
+    t.datetime "time_in"
+    t.datetime "time_out"
   end
 
 end
