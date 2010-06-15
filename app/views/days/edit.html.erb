@@ -1,15 +1,31 @@
 <% form_for(@day) do |f| %>
 <%= f.error_messages %>
+  
   <% f.fields_for :shifts do |shift_form| %>
-    <%= shift_form.label :time_in %>
-    <%= shift_form.text_field :time_in, :size => 6 %>
-    <%= shift_form.label :time_out %>
-    <%= shift_form.text_field :time_out, :size => 6 %>
-    <%if (shift_form.object.person.role == 2) %>
-      <%= shift_form.check_box :closing_barback %>
-      <%= shift_form.label :closing_barback %> 
+    <%if (shift_form.object.person.role == Person::BARTENDER) %>
+      <%= "#{shift_form.object.person.name} - " %>
+      <%= shift_form.label :time_in, "in:" %>
+      <%= shift_form.text_field :time_in, :size => 6 %>
+      <%= shift_form.label :time_out, "out:" %>
+      <%= shift_form.text_field :time_out, :size => 6 %>
+      <%= shift_form.label :second_floor %>
+      <%= shift_form.check_box :second_floor %>    
+      <br/>
     <% end %>
-    <br/>
   <% end %>
+  
+  <% f.fields_for :shifts do |shift_form| %>
+    <%if (shift_form.object.person.role == Person::BARBACK) %>
+      <%= "#{shift_form.object.person.name} - " %>
+      <%= shift_form.label :time_in, "in:" %>
+      <%= shift_form.text_field :time_in, :size => 6 %>
+      <%= shift_form.label :time_out, "out:" %>
+      <%= shift_form.text_field :time_out, :size => 6 %>
+      <%= shift_form.label :closing_barback %>
+      <%= shift_form.check_box :closing_barback %>    
+      <br/>
+    <% end %>
+  <% end %>
+    
 <%= f.submit 'continue' %>
 <% end %>

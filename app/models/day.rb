@@ -10,11 +10,7 @@ class Day < ActiveRecord::Base
   def self.hour_minute(time)
     "#{time.hour}:#{time.min}"
   end
-  
-  def second_floor
-    total_tips*0.1
-  end
-  
+    
   def number_closing_barbacks
     num = 0
     people.each do |p|
@@ -37,12 +33,18 @@ class Day < ActiveRecord::Base
     total_tips*0.75
   end
   
+  
+  
+  def second_floor
+    total_tips*0.1
+  end
+  
   def bartender_hourly
-    net_tips/bartender_hours
+    (((net_tips/bartender_hours)*100).round)/100.0
   end
   
   def barback_hourly
-    barback_total/barback_hours
+    (((barback_total/barback_hours)*100).round)/100.0
   end
   
   def barback_hours
@@ -56,7 +58,7 @@ class Day < ActiveRecord::Base
   def bartender_hours
     bartenderHours = 0
     people.each do |person|
-    if (person.role == Person::BARTENDER) then bartenderHours = bartenderHours + person.hours(self) end
+    if (person.role == Person::BARTENDER  && (!shift(person).second_floor)) then bartenderHours = bartenderHours + person.hours(self) end
     end
     bartenderHours
   end

@@ -5,7 +5,7 @@ class DaysController < ApplicationController
   end
 
   def create
-    @day = Day.new :when => (Date.today - 1), :total_tips => params[:total_tips].to_i, :tipout_pct => params[:tipout_pct].to_i, :person_ids => params[:person_ids]
+    @day = Day.new :when => params[:when], :total_tips => params[:total_tips].to_i, :tipout_pct => params[:tipout_pct].to_i, :person_ids => params[:person_ids]
     @day.save
     params[:id] = @day.id
     @people = Person.all

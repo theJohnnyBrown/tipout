@@ -1,6 +1,6 @@
 <div id = "meta">
   Date: <%= @day.when %><br>
-  Closer <%= @day.closer %><br class = "clear"/>
+  Closer: <%= @day.closer %><br class = "clear"/>
 </div>
 <div id = "tip_totals">
   <table>
@@ -12,15 +12,19 @@
     <tr><td>Bartender Tips/hour: </td><td><%= @day.bartender_hourly %></td></tr>
     <tr><td>Barback hours: </td><td><%= @day.barback_hours %></td></tr>
     <tr><td>Barback Tips/hour: </td><td><%= @day.barback_hourly %></td></tr>
+    <tr><td>Barback Tipout %: </td><td><%= @day.tipout_pct %></td></tr>
   </table><br class = "clear"/>
 </div>
+<hr>
 <div id = "tipout_table">
   <table>
    <tr><th>Bartenders</th>
        <th>Time In</th>
        <th>Time Out</th>
        <th>Hours</th>
-       <th>Tips (after tipout)<%#this table should match the old sheet exactly for production %></th>
+       <th>Gross Tips</th>
+       <th>Tip-Out</th>
+       <th>NetTips (after tipout)<%#this table should match the old sheet exactly for production %></th>
    </tr>
    <% @day.people.each do |person| %>
      <% if person.role == Person::BARTENDER %>
@@ -28,7 +32,9 @@
          <td><%=Day.hour_minute(@day.shift(person).time_in)%></td>
          <td><%=Day.hour_minute(@day.shift(person).time_out)%></td>
          <td><%=person.hours(@day)%></td><%#see how ugly that is? all the data in this row should come from the same model. Ideally it would come from the person.%>
-         <td><%=person.tips(@day)%></td>
+         <td><%= person.gross_tips(@day)%></td>
+         <td><%=person.tipout(@day) %></td>
+         <td><%=((person.tips(@day)*100).round)/100.0%></td>
      </tr>
      <% end %>
    <% end %>
@@ -36,14 +42,20 @@
        <th>Time In</th>
        <th>Time Out</th>
        <th>Hours</th>
-       <th>Tips (after tipout)<%#this table should match the old sheet exactly for production %></th>
+       <th>Gross Tips</th>
+       <th>Tip-Out</th>
+       <th>Net Tips (after tipout)<%#this table should match the old sheet exactly for production %></th>
    </tr>
    <% @day.people.each do |person| %>
      <% if person.role == Person::BARBACK %>
+       <% s = @day.shift(person) %>
+       <% if (s.closing_barback) then tipout = (@day.net_tips*(@day.tipout_pct/100.0))/@day.number_closing_barbacks else tipout = 0 end %>
      <tr><td><%=person.name%></td>
-         <td><%=Day.hour_minute(@day.shift(person).time_in)%></td>
-         <td><%=Day.hour_minute(@day.shift(person).time_out)%></td>
+         <td><%=Day.hour_minute(s.time_in)%></td>
+         <td><%=Day.hour_minute(s.time_out)%></td>
          <td><%=person.hours(@day)%></td>
+         <td><%=person.gross_tips(@day)%></td>
+         <td><%= person.tipout(@day) %></td>
          <td><%=person.tips(@day)%></td>
      </tr>
      <% end %>
