@@ -1,62 +1,63 @@
-<div id = "meta">
-  Date: <%= @day.when %><br>
-  Closer: <%= @day.closer %><br class = "clear"/>
-</div>
-<div id = "tip_totals">
-  <table>
-    <tr><td>Total Tips: </td><td><%= @day.total_tips %></tr></td>
-    <tr><td>10% Second Floor: </td><td><%= @day.second_floor %></td></tr>
-    <tr><td>Barback 15%: </td><td><%= @day.barback_total %></td></tr>
-    <tr><td>Net Tips: </td><td><%= @day.net_tips %></td></tr>
-    <tr><td>Bartender Hours: </td><td><%= @day.bartender_hours %></td></tr>
-    <tr><td>Bartender Tips/hour: </td><td><%= @day.bartender_hourly %></td></tr>
-    <tr><td>Barback hours: </td><td><%= @day.barback_hours %></td></tr>
-    <tr><td>Barback Tips/hour: </td><td><%= @day.barback_hourly %></td></tr>
-    <tr><td>Barback Tipout %: </td><td><%= @day.tipout_pct %></td></tr>
-  </table><br class = "clear"/>
-</div>
+  <ul class="pageitem">
+    <li class = "bigfield"><span class = "name">Date:</span><span class = "value"> <%= @day.when %></span>
+    <li class = "bigfield"><span class = "name">Closer:</span><span class = "value"> <%= @day.closer %></span>
+  </ul>
+
+  <ul class="pageitem">
+    <li class="bigfield"><span class = "name">Total Tips:</span><span class = "value"><%= @day.total_tips %></span></li>
+    <li class="bigfield"><span class = "name">10% Second Floor:</span><span class = "value"><%= @day.second_floor %></span></li>
+    <li class="bigfield"><span class = "name">Barback 15%: </span><span class = "value"><%= @day.barback_total %></span></li>
+    <li class="bigfield"><span class = "name">Net Tips: </span><span class = "value"><%= @day.net_tips %></span></li>
+    <li class="bigfield"><span class = "name">Bartender Hours:</span><span class = "value"><%= @day.bartender_hours %></span></li>
+    <li class="bigfield"><span class = "name">Bartender Tips/hour:</span><span class = "value"><%= @day.bartender_hourly %></span></li>
+    <li class="bigfield"><span class = "name">Barback hours:</span><span class = "value"><%= @day.barback_hours %></span></li>
+    <li class="bigfield"><span class = "name">Barback Tips/hour:</span><span class = "value"><%= @day.barback_hourly %></span></li>
+    <li class="bigfield"><span class = "name">Barback Tipout %:</span><span class = "value"><%= @day.tipout_pct %></span></li>
+  </ul>
+
+
 <hr>
 <div id = "tipout_table">
-  <table>
-   <tr><th>Bartenders</th>
+  <table class = "pageitem" border = "1">
+   <tr  class="bigfield"><th>Bartenders</th>
        <th>Time In</th>
        <th>Time Out</th>
        <th>Hours</th>
-       <th>Gross Tips</th>
-       <th>Tip-Out</th>
-       <th>NetTips (after tipout)<%#this table should match the old sheet exactly for production %></th>
+       <th>Tips</th>
+       <th>Tipout</th>
+       <th>Net Tips<%#this table should match the old sheet exactly for production %></th>
    </tr>
    <% @day.people.each do |person| %>
      <% if person.role == Person::BARTENDER %>
-     <tr><td><%=person.name%></td>
-         <td><%=Day.hour_minute(@day.shift(person).time_in)%></td>
-         <td><%=Day.hour_minute(@day.shift(person).time_out)%></td>
+     <tr class="bigfield"><td><%=person.name%></td>
+         <td><%=(@day.shift(person).time_in).hm_string%></td>
+         <td><%=(@day.shift(person).time_out).hm_string%></td>
          <td><%=person.hours(@day)%></td><%#see how ugly that is? all the data in this row should come from the same model. Ideally it would come from the person.%>
          <td><%= person.gross_tips(@day)%></td>
          <td><%=person.tipout(@day) %></td>
-         <td><%=((person.tips(@day)*100).round)/100.0%></td>
+         <td><%="$#{((person.tips(@day)*100).round)/100.0}"%></td>
      </tr>
      <% end %>
    <% end %>
-   <tr><th>Barbacks</th>
+   <tr class="bigfield"><th>Barbacks</th>
        <th>Time In</th>
        <th>Time Out</th>
        <th>Hours</th>
-       <th>Gross Tips</th>
-       <th>Tip-Out</th>
-       <th>Net Tips (after tipout)<%#this table should match the old sheet exactly for production %></th>
+       <th>Tips</th>
+       <th>Tipout</th>
+       <th>Net Tips<%#this table should match the old sheet exactly for production %></th>
    </tr>
    <% @day.people.each do |person| %>
      <% if person.role == Person::BARBACK %>
        <% s = @day.shift(person) %>
        <% if (s.closing_barback) then tipout = (@day.net_tips*(@day.tipout_pct/100.0))/@day.number_closing_barbacks else tipout = 0 end %>
-     <tr><td><%=person.name%></td>
-         <td><%=Day.hour_minute(s.time_in)%></td>
-         <td><%=Day.hour_minute(s.time_out)%></td>
+     <tr class="bigfield"><td><%=person.name%></td>
+         <td><%=s.time_in.hm_string%></td>
+         <td><%=s.time_out.hm_string%></td>
          <td><%=person.hours(@day)%></td>
          <td><%=person.gross_tips(@day)%></td>
          <td><%= person.tipout(@day) %></td>
-         <td><%=person.tips(@day)%></td>
+         <td><%="$#{person.tips(@day)}"%></td>
      </tr>
      <% end %>
    <% end %>

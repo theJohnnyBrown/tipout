@@ -1,31 +1,77 @@
+
 <% form_for(@day) do |f| %>
+<% times = @day.times %>
+
 <%= f.error_messages %>
+  <span class="graytitle">Date:</span>
+    <ul class="pageitem">
+      <li class="bigfield"><%= f.text_field :when, :value => "#{Date.today - 1}"%></li>
+    </ul>
+
+  <span class="graytitle">Total Tips:</span>
+  <ul class="pageitem">
+    <li class="bigfield"><%= f.text_field :total_tips%></li>
+  </ul>
+
+  <span class="graytitle">Barback tipout %</span>
+  <ul class="pageitem">
+    <li class="bigfield"><%= f.text_field :tipout_pct %></li>
+  </ul>
+
+  <span class="graytitle"><br/>Bartenders <hr></span>
   
   <% f.fields_for :shifts do |shift_form| %>
     <%if (shift_form.object.person.role == Person::BARTENDER) %>
-      <%= "#{shift_form.object.person.name} - " %>
-      <%= shift_form.label :time_in, "in:" %>
-      <%= shift_form.text_field :time_in, :size => 6 %>
-      <%= shift_form.label :time_out, "out:" %>
-      <%= shift_form.text_field :time_out, :size => 6 %>
-      <%= shift_form.label :second_floor %>
-      <%= shift_form.check_box :second_floor %>    
-      <br/>
+
+      <span class="graytitle"><%=shift_form.object.person.name  %></span>
+      <ul class="pageitem">
+        <li class="select">
+          <span class="name">Time in:</span>
+          <%= shift_form.collection_select :time_in, times, :hm_string, :hm_string, {:selected => shift_form.object.time_in.localtime.hm_string} %>
+        </li>
+        <li class="select">
+          <span class="name">Time out:</span>
+          <%= shift_form.collection_select :time_out, times, :hm_string, :hm_string, {:selected => shift_form.object.time_out.localtime.hm_string} %>
+        </li>
+        <li class = "checkbox">  
+          <span class = "name">Second floor? </span>
+          <%= shift_form.check_box :second_floor %>    
+        </li>
+      </ul>
     <% end %>
   <% end %>
   
+  <span class="graytitle"><br/>Barbacks <hr></span>
+  
+
+  
   <% f.fields_for :shifts do |shift_form| %>
     <%if (shift_form.object.person.role == Person::BARBACK) %>
-      <%= "#{shift_form.object.person.name} - " %>
-      <%= shift_form.label :time_in, "in:" %>
-      <%= shift_form.text_field :time_in, :size => 6 %>
-      <%= shift_form.label :time_out, "out:" %>
-      <%= shift_form.text_field :time_out, :size => 6 %>
-      <%= shift_form.label :closing_barback %>
-      <%= shift_form.check_box :closing_barback %>    
-      <br/>
+
+    
+      <span class="graytitle"><%=shift_form.object.person.name  %></span>
+      <ul class="pageitem">
+        <li class="select">
+          <span class="name">Time in:</span>
+          <%= shift_form.collection_select :time_in, times, :hm_string, :hm_string, {:selected => shift_form.object.time_in.localtime.hm_string} %>
+        </li>
+        <li class="select">
+          <span class="name">Time out:</span>
+          <%= shift_form.collection_select :time_out, times, :hm_string, :hm_string, {:selected => shift_form.object.time_out.localtime.hm_string} %>
+        </li>
+        <li class = "checkbox">  
+          <span class = "name">Closing barback?</span>
+          <%= shift_form.check_box :closing_barback, :checked => true %>    
+        </li>
+      </ul>
     <% end %>
   <% end %>
-    
-<%= f.submit 'continue' %>
+  
+  
+  
+<ul class="pageitem">
+  <li class="button">
+    <%= f.submit 'continue' %>
+  </li>
+</ul>
 <% end %>

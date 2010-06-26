@@ -5,8 +5,19 @@ class DaysController < ApplicationController
   end
 
   def create
-    @day = Day.new :when => params[:when], :total_tips => params[:total_tips].to_i, :tipout_pct => params[:tipout_pct].to_i, :person_ids => params[:person_ids]
+  
+    @day = Day.new :person_ids => params[:person_ids]
     @day.save
+    @day.shifts.each do |s|
+      s.time_in = Time.parse "7:00 PM -0500"
+      s.time_out = Time.parse "3:00 AM -0500"      
+      s.save
+    end
+
+    
+    #d = Day.find_by_when @day.when
+    #Day should validate presence and uniqueness of when. then if save edit, else if Day.find_by_when(@day.when) edit that. 
+    #mind the case where we want to add bartenders to an existing shift
     params[:id] = @day.id
     @people = Person.all
     render 'edit'

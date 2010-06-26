@@ -1,27 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>Bartender/barback tipout calculator </title>
-    <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
-    <%= stylesheet_link_tag 'blueprint/print',  :media => 'print' %>
-    <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
-    <%= stylesheet_link_tag 'custom', :media => 'screen' %>
-  </head>
-  <body>
-  <div class="container">
-    <div id="header">
-        <%= image_tag("logo.png", :alt => "ACM logo?", :class => "round") %>
-        <ul class="navigation round">
-          <li><%= link_to "Home", "www.zombo.com" %></li>          
-        </ul>
-      </div>
-      <div id="content" class = "round">
-       <% flash.each do |key, value| %>
-          <div class="flash <%= key %>"><%= value %></div>
-        <% end %> 
-       <%= yield %>
-       <br class = "clear"/>
-     </div>
-  </div> 
-  </body>
+<head>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" />
+
+<%=javascript_include_tag "functions" %>
+<%=stylesheet_link_tag "iwebkit" %>
+
+
+
+<title>bar staff tip calculator</title>
+<meta content="keyword1,keyword2,keyword3" name="keywords" />
+<meta content="Description of your page" name="description" />
+</head>
+
+<body>
+<%#
+<div id="topbar">
+  <div id="title">Bar staff tip calculator</div>
+</div>
+<div id = "content" >
+%>
+<%= yield %>
+	<!-- Support iWebKit by sending us traffic; please keep this footer on your page, consider it a thank you for our work :-) -->
+	<a class="noeffect" href="http://iwebkit.net">Powered by iWebKit</a></div>
+</div>
+</body>
+
 </html>

@@ -1,6 +1,14 @@
+  class Time
+    def hm_string
+      self.strftime "%I:%M %p"
+    end
+  end
+
 class Day < ActiveRecord::Base
   BARTENDER = 1
   BARBACK = 2
+  
+
 
   has_many :shifts, :dependent => :destroy
   has_many :people, :through => :shifts
@@ -53,6 +61,16 @@ class Day < ActiveRecord::Base
       if (person.role == Person::BARBACK) then barbackHours = barbackHours + person.hours(self) end
     end
     barbackHours
+  end
+  
+  def times
+    t = Time.parse "12:00 pm"
+    ts = []
+    48.times do |x|
+      ts << t
+      t += 30*60
+    end
+    ts
   end
   
   def bartender_hours

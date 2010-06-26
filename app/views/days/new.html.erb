@@ -1,28 +1,38 @@
 <% form_for @day do |f| %>
 <%= f.error_messages %>
-Date:<br>
-<%= text_field_tag "when", "#{(Date.today - 1)}" %><br>
-total cash in the jar?<br/>
-<%= text_field_tag "total_tips" %><br>
-Barback tipout percent?<br/>
-<%= text_field_tag "tipout_pct" %><br>
-<strong>Bartenders:</strong>
+
+
+
+<span class="graytitle">Bartenders</span>
+<ul class="pageitem">
   <% @people.each do |person| %>
     <% if person.role == Person::BARTENDER %>
-      <div class = "field">  
-        <%= check_box_tag "person_ids[]", person.id, @day.people.include?(person) %><%= person.name %>
-      </div>
+      <li class="checkbox"> 
+      <span class="name"><%=person.name %></span>
+        <%= check_box_tag "person_ids[]", person.id, @day.people.include?(person) %>
+      </li>
     <% end %>
   <% end %>
-  
-<strong>Barbacks:</strong>
+</ul>
+
+<span class="graytitle">Barbacks</span>
+<ul class="pageitem">
   <% @people.each do |person| %>
     <% if person.role == Person::BARBACK %>
-      <div class = "field">  
-        <%= check_box_tag "person_ids[]", person.id, @day.people.include?(person) %><%= person.name %>
-      </div>
+      <li class="checkbox"> 
+      <span class="name"><%=person.name %></span>
+        <%= check_box_tag "person_ids[]", person.id, @day.people.include?(person) %>
+      </li>
     <% end %>
   <% end %>
+</ul>
+
+<ul class="pageitem">
+  <li class="button">
+    <%= f.submit 'continue' %>
+  </li>
+</ul>
+
     
-<%= f.submit 'continue' %>
+
 <% end %>
