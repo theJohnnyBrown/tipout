@@ -7,10 +7,11 @@ class DaysController < ApplicationController
   def create
   
     @day = Day.new :person_ids => params[:person_ids]
+    @day.when = (Date.today - 1) unless (@day.when)
     @day.save
     @day.shifts.each do |s|
-      s.time_in = Time.parse "7:00 PM -0500"
-      s.time_out = Time.parse "3:00 AM -0500"      
+      s.time_in = "7:00 PM" unless (s.time_in)
+      s.time_out ="3:00 AM" unless (s.time_out)
       s.save
     end
 
@@ -36,7 +37,7 @@ class DaysController < ApplicationController
     @day = Day.find(params[:id])
     
     if @day.update_attributes(params[:day])
-      flash[:success] = "Profile updated."
+      flash[:success] = "this page best viewed in landscape."
       redirect_to @day
     else
       flash[:failure] = "what went wrong?"

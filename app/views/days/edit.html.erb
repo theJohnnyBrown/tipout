@@ -5,7 +5,7 @@
 <%= f.error_messages %>
   <span class="graytitle">Date:</span>
     <ul class="pageitem">
-      <li class="bigfield"><%= f.text_field :when, :value => "#{Date.today - 1}"%></li>
+      <li class="bigfield"><%= f.text_field :when%></li>
     </ul>
 
   <span class="graytitle">Total Tips:</span>
@@ -27,11 +27,11 @@
       <ul class="pageitem">
         <li class="select">
           <span class="name">Time in:</span>
-          <%= shift_form.collection_select :time_in, times, :hm_string, :hm_string, {:selected => shift_form.object.time_in.localtime.hm_string} %>
+          <%= shift_form.collection_select :time_in, times, :hm_string, :hm_string, {:selected => shift_form.object.time_in.hm_string} %>
         </li>
         <li class="select">
           <span class="name">Time out:</span>
-          <%= shift_form.collection_select :time_out, times, :hm_string, :hm_string, {:selected => shift_form.object.time_out.localtime.hm_string} %>
+          <%= shift_form.collection_select :time_out, times, :hm_string, :hm_string, {:selected => shift_form.object.time_out.hm_string} %>
         </li>
         <li class = "checkbox">  
           <span class = "name">Second floor? </span>
@@ -53,11 +53,11 @@
       <ul class="pageitem">
         <li class="select">
           <span class="name">Time in:</span>
-          <%= shift_form.collection_select :time_in, times, :hm_string, :hm_string, {:selected => shift_form.object.time_in.localtime.hm_string} %>
+          <%= shift_form.collection_select :time_in, times, :hm_string, :hm_string, {:selected => shift_form.object.time_in.hm_string} %>
         </li>
         <li class="select">
           <span class="name">Time out:</span>
-          <%= shift_form.collection_select :time_out, times, :hm_string, :hm_string, {:selected => shift_form.object.time_out.localtime.hm_string} %>
+          <%= shift_form.collection_select :time_out, times, :hm_string, :hm_string, {:selected => shift_form.object.time_out.hm_string} %>
         </li>
         <li class = "checkbox">  
           <span class = "name">Closing barback?</span>

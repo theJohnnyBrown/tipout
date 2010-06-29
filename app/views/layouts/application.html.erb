@@ -21,8 +21,12 @@
 <div id="topbar">
   <div id="title">Bar staff tip calculator</div>
 </div>
-<div id = "content" >
 %>
+        <% flash.each do |key, value| %>
+          <div class="flash <%= key %>"><%= value %></div>
+        <% end %> 
+<div id = "content" >
+
 <%= yield %>
 	<!-- Support iWebKit by sending us traffic; please keep this footer on your page, consider it a thank you for our work :-) -->
 	<a class="noeffect" href="http://iwebkit.net">Powered by iWebKit</a></div>
