@@ -1,0 +1,25 @@
+<% @days.sort! %>
+<% @days.each do |day| %>
+  <% if day.when %>
+<span class="graytitle"><%= "#{day.when.weekday}, #{day.when}" %></span>
+    <ul class="pageitem">
+      <a href = "<%= day_path(day) %>">
+        <li class="bigfield"><span class = "name">Total tips</span><span class = "value">$<%= day.total_tips %></span></li>
+      </a>
+ 
+      
+      <li class="button"><%= button_to 'edit', edit_day_path(day) %> </li>
+      
+
+      <li class="button">
+        
+        <%= button_to 'Delete', day, :method => :delete,:confirm => 'Are you sure?' %>        
+      </li>
+      
+
+      
+    </ul>
+          
+  <% end %>
+<% end %>
+

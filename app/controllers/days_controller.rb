@@ -1,4 +1,9 @@
 class DaysController < ApplicationController
+
+  def index
+    @days = Day.all
+  end
+  
   def new
     @day = Day.new
     @people = Person.all
@@ -44,5 +49,15 @@ class DaysController < ApplicationController
     end  
   end
   
+
+  def destroy
+    @day = Day.find(params[:id])
+    @day.destroy
+
+    respond_to do |format|
+      format.html { redirect_to(days_url) }
+      format.xml  { head :ok }
+    end
+  end
 
 end

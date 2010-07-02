@@ -450,6 +450,7 @@ fieldset {
 	border-top: 1px solid #878787;
 	width: auto;
 }
+
 .pageitem li:first-child:hover, .pageitem li:first-child a, .radiobutton:first-child input, .select:first-child select, li.button:first-child input, .bigfield:first-child input {
 	-webkit-border-top-left-radius: 8px;
 	-webkit-border-top-right-radius: 8px;
@@ -1106,6 +1107,7 @@ select {
 	white-space: nowrap;
 	overflow: hidden;
 	background: none;
+	padding-top: 10px;
 }
 .textbox textarea {
 	padding: 0;

@@ -3,6 +3,13 @@
       self.strftime "%I:%M %p"
     end
   end
+  
+class Date
+  def weekday
+    weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
+    weekdays[self.wday]
+  end
+end
 
 class Day < ActiveRecord::Base
   BARTENDER = 1
@@ -10,13 +17,21 @@ class Day < ActiveRecord::Base
   
 
 
-  has_many :shifts, :dependent => :destroy
+  has_many :shifts,:dependent => :destroy
   has_many :people, :through => :shifts
   belongs_to :closer, :class_name => "Person"
   accepts_nested_attributes_for :shifts
   
   def self.hour_minute(time)
     "#{time.hour}:#{time.min}"
+  end
+  
+  def <=> (second)
+    aval = Date.new
+    bval = Date.new
+    aval = self.when if self.when
+    bval = second.when if second.when
+    aval <=> bval
   end
     
   def number_closing_barbacks
