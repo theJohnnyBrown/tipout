@@ -32925,3 +32925,124 @@ Rendering days/edit
   [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 10) [0m
   [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 15) [0m
 Completed in 86ms (View: 58, DB: 8) | 200 OK [http://localhost/days/22/edit?]
+
+
+Processing DaysController#new (for 192.168.1.103 at 2010-07-05 11:04:33) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mPerson Load (0.4ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 6) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 7) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 8) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 9) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 10) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 12) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 16) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 13) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 14) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 15) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+Completed in 292ms (View: 201, DB: 4) | 200 OK [http://192.168.1.105/]
+
+
+Processing DaysController#create (for 192.168.1.103 at 2010-07-05 11:05:04) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"E9iXg5t7A1MkDE1Xs4AIwxyLpRiBfDA821pnkwPb/NM=", "person_ids"=>["6", "7", "8", "13"]}
+  [4;35;1mPerson Load (19.4ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" IN (6,7,8,13)) [0m
+  [4;36;1mDay Create (11.8ms)[0m   [0;1mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(NULL, NULL, '2010-07-05 16:05:04', '2010-07-05 16:05:04', NULL, '2010-07-04')[0m
+  [4;35;1mShift Create (0.3ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-05 16:05:04', '2010-07-05 16:05:04', NULL, NULL, 6, NULL, NULL, 42)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-05 16:05:04', '2010-07-05 16:05:04', NULL, NULL, 7, NULL, NULL, 42)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-05 16:05:04', '2010-07-05 16:05:04', NULL, NULL, 8, NULL, NULL, 42)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-05 16:05:04', '2010-07-05 16:05:04', NULL, NULL, 13, NULL, NULL, 42)[0m
+  [4;35;1mShift Load (1.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".day_id = 42) [0m
+  [4;36;1mShift Update (0.4ms)[0m   [0;1mUPDATE "shifts" SET "updated_at" = '2010-07-05 16:05:04', "time_in" = '2010-07-05 19:00:00', "time_out" = '2010-07-06 03:00:00' WHERE "id" = 151[0m
+  [4;35;1mShift Update (0.4ms)[0m   [0mUPDATE "shifts" SET "updated_at" = '2010-07-05 16:05:04', "time_in" = '2010-07-05 19:00:00', "time_out" = '2010-07-06 03:00:00' WHERE "id" = 152[0m
+  [4;36;1mShift Update (0.4ms)[0m   [0;1mUPDATE "shifts" SET "updated_at" = '2010-07-05 16:05:04', "time_in" = '2010-07-05 19:00:00', "time_out" = '2010-07-06 03:00:00' WHERE "id" = 153[0m
+  [4;35;1mShift Update (0.4ms)[0m   [0mUPDATE "shifts" SET "updated_at" = '2010-07-05 16:05:04', "time_in" = '2010-07-05 19:00:00', "time_out" = '2010-07-06 03:00:00' WHERE "id" = 154[0m
+  [4;36;1mPerson Load (1.7ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/edit
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 6) [0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 7) [0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 8) [0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 13) [0m
+Completed in 453ms (View: 63, DB: 38) | 200 OK [http://192.168.1.105/days]
+
+
+Processing DaysController#update (for 192.168.1.103 at 2010-07-05 11:05:11) [PUT]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"E9iXg5t7A1MkDE1Xs4AIwxyLpRiBfDA821pnkwPb/NM=", "id"=>"42", "day"=>{"tipout_pct"=>"", "total_tips"=>"", "shifts_attributes"=>{"6"=>{"id"=>"153"}, "7"=>{"time_in"=>"07:00 PM", "id"=>"154", "closing_barback"=>"1", "time_out"=>"03:00 AM"}, "0"=>{"second_floor"=>"0", "time_in"=>"07:00 PM", "id"=>"151", "time_out"=>"03:00 AM"}, "1"=>{"second_floor"=>"0", "time_in"=>"07:00 PM", "id"=>"152", "time_out"=>"03:00 AM"}, "2"=>{"second_floor"=>"0", "time_in"=>"07:00 PM", "id"=>"153", "time_out"=>"03:00 AM"}, "3"=>{"id"=>"154"}, "4"=>{"id"=>"151"}, "5"=>{"id"=>"152"}}, "when"=>"2010-07-04"}}
+  [4;35;1mDay Load (0.5ms)[0m   [0mSELECT * FROM "days" WHERE ("days"."id" = 42) [0m
+  [4;36;1mShift Load (1.1ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".day_id = 42) [0m
+  [4;35;1mShift Update (0.5ms)[0m   [0mUPDATE "shifts" SET "updated_at" = '2010-07-05 16:05:11', "second_floor" = 'f' WHERE "id" = 151[0m
+  [4;36;1mShift Update (0.2ms)[0m   [0;1mUPDATE "shifts" SET "updated_at" = '2010-07-05 16:05:11', "second_floor" = 'f' WHERE "id" = 152[0m
+  [4;35;1mShift Update (0.2ms)[0m   [0mUPDATE "shifts" SET "updated_at" = '2010-07-05 16:05:11', "second_floor" = 'f' WHERE "id" = 153[0m
+  [4;36;1mShift Update (0.2ms)[0m   [0;1mUPDATE "shifts" SET "closing_barback" = 't', "updated_at" = '2010-07-05 16:05:11' WHERE "id" = 154[0m
+Redirected to http://192.168.1.105:3000/days/42
+Completed in 54ms (DB: 3) | 302 Found [http://192.168.1.105/days/42]
+
+
+Processing DaysController#show (for 192.168.1.103 at 2010-07-05 11:05:11) [GET]
+  Parameters: {"id"=>"42"}
+  [4;35;1mDay Load (0.4ms)[0m   [0mSELECT * FROM "days" WHERE ("days"."id" = 42) [0m
+Rendering template within layouts/application
+Rendering days/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.*) on line #8 of app/views/days/show.html.erb:
+5: 
+6:   <ul class="pageitem">
+7:     <li class="bigfield"><span class = "name">Total Tips:</span><span class = "value"><%= @day.total_tips %></span></li>
+8:     <li class="bigfield"><span class = "name">10% Second Floor:</span><span class = "value"><%= @day.second_floor %></span></li>
+9:     <li class="bigfield"><span class = "name">Barback 15%: </span><span class = "value"><%= @day.barback_total %></span></li>
+10:     <li class="bigfield"><span class = "name">Net Tips: </span><span class = "value"><%= @day.net_tips %></span></li>
+11:     <li class="bigfield"><span class = "name">Bartender Hours:</span><span class = "value"><%= @day.bartender_hours %></span></li>
+
+    app/models/day.rb:62:in `second_floor'
+    app/views/days/show.html.erb:8
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (142.8ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-06 11:54:43) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mPerson Load (0.4ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 6) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 7) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 8) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 9) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 10) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 12) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 16) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 13) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 14) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 15) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+Completed in 378ms (View: 312, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-16 20:34:28) [GET]
+  [4;36;1mPerson Load (1.6ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mPerson Load (0.4ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 6) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 7) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 8) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 9) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 10) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 12) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 16) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 13) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 14) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE ("people"."id" = 15) AND (("shifts".day_id = NULL)) LIMIT 1[0m
+Completed in 274ms (View: 195, DB: 5) | 200 OK [http://localhost/]

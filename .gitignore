@@ -1,5 +1,5 @@
 log/*.log
-log/development.log
+
 tmp/*
 tmp/**/*
 doc/api
@@ -8,4 +8,4 @@ db/*.sqlite3
 *.swp
 *~
 .DS_Store
-log/development.log
+
