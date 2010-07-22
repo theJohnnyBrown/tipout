@@ -1,0 +1,17 @@
+<% times = Day.new.times %>
+<div class='fields'%>
+
+    <%=f.label :person_id %>:
+    <%=f.collection_select :person_id, Person.all, :id, :name%>
+    <%=f.label :time_in %>:
+    <%=f.collection_select :time_in, times, :hm_string, :hm_string%>
+    <%=f.label :time_out %>:
+    <%=f.collection_select :time_out, times, :hm_string, :hm_string%>
+    <%=f.label :second_floor %>:
+    <%= f.check_box :second_floor %>
+    <%=f.label :closing_barback %>:
+    <%=f.check_box :closing_barback %>
+
+  <%= remove_child_link "remove", f %>
+
+</div>

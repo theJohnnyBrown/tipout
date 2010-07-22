@@ -6,10 +6,14 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" />
 
-<%=javascript_include_tag "functions" %>
-<%=javascript_include_tag "application" %>
 <%=javascript_include_tag "prototype" %>
-<%= stylesheet_link_tag "iwebkit" %>
+
+<%=javascript_include_tag "effects" %>
+<%=javascript_include_tag "dragdrop" %>
+<%=javascript_include_tag "controls" %>
+<%=javascript_include_tag "application" %>
+<%=stylesheet_link_tag "iwebkit"%>
+
 
 
 
@@ -30,8 +34,7 @@
 <div id = "content" >
 
 <%= yield %>
-	<!-- Support iWebKit by sending us traffic; please keep this footer on your page, consider it a thank you for our work :-) -->
-	<a class="noeffect" href="http://iwebkit.net">Powered by iWebKit</a></div>
+
 </div>
 </body>
 

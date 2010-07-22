@@ -18,9 +18,11 @@ class Day < ActiveRecord::Base
 
 
   has_many :shifts,:dependent => :destroy
+  accepts_nested_attributes_for :shifts, :reject_if => lambda { |a| a.values.all?(&:blank?) }, :allow_destroy => true 
   has_many :people, :through => :shifts
   belongs_to :closer, :class_name => "Person"
-  accepts_nested_attributes_for :shifts
+  
+  
   
   def self.hour_minute(time)
     "#{time.hour}:#{time.min}"

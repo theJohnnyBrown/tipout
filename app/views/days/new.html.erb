@@ -1,38 +1,24 @@
+
 <% form_for @day do |f| %>
-<%= f.error_messages %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :when %><br />
+    <%= f.text_field :when %>
+  </p>
+   <span class="graytitle">Total Tips:</span>
+  <ul class="pageitem">
+    <li class="bigfield"><%= f.text_field :total_tips%></li>
+  </ul>
 
-
-
-<span class="graytitle">Bartenders</span>
-<ul class="pageitem">
-  <% @people.each do |person| %>
-    <% if person.role == Person::BARTENDER %>
-      <li class="checkbox"> 
-      <span class="name"><%=person.name %></span>
-        <%= check_box_tag "person_ids[]", person.id, @day.people.include?(person) %>
-      </li>
-    <% end %>
+  <span class="graytitle">Barback tipout %</span>
+  <ul class="pageitem">
+    <li class="bigfield"><%= f.text_field :tipout_pct %></li>
+  </ul>
+  
+  <h3>Shifts</h3>
+  <% f.fields_for :shifts do |shift_form| %>
+    <%= render :partial => 'shift', :locals => { :f => shift_form } %>
   <% end %>
-</ul>
-
-<span class="graytitle">Barbacks</span>
-<ul class="pageitem">
-  <% @people.each do |person| %>
-    <% if person.role == Person::BARBACK %>
-      <li class="checkbox"> 
-      <span class="name"><%=person.name %></span>
-        <%= check_box_tag "person_ids[]", person.id, @day.people.include?(person) %>
-      </li>
-    <% end %>
-  <% end %>
-</ul>
-
-<ul class="pageitem">
-  <li class="button">
-    <%= f.submit 'continue' %>
-  </li>
-</ul>
-
-    
-
+  <p><%= add_child_link "New shift", f, :shifts %></p>
+  <p><%= f.submit "Submit" %></p>
 <% end %>

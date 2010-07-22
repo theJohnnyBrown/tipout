@@ -11,7 +11,7 @@ class DaysController < ApplicationController
 
   def create
   
-    @day = Day.new :person_ids => params[:person_ids]
+    @day = Day.new(params[:day])
     @day.when = (Date.today - 1) unless (@day.when)
     @day.save
     @day.shifts.each do |s|
@@ -26,7 +26,7 @@ class DaysController < ApplicationController
     #mind the case where we want to add bartenders to an existing shift
     params[:id] = @day.id
     @people = Person.all
-    render 'edit'
+    render 'show'
   end
 
   def show
