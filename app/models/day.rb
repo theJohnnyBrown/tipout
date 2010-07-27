@@ -22,7 +22,10 @@ class Day < ActiveRecord::Base
   has_many :people, :through => :shifts
   belongs_to :closer, :class_name => "Person"
   
-  
+  def initialize(attributes={})
+    attr_with_defaults = {:when => (Date.today-1), :tipout_pct => 5}.merge(attributes)
+    super(attr_with_defaults)
+  end
   
   def self.hour_minute(time)
     "#{time.hour}:#{time.min}"

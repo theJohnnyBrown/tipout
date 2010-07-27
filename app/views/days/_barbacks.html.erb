@@ -1,9 +1,17 @@
 <% times = Day.new.times %>
+<%
+barbacks = []
+Person.all.each do |p|
+  if (p.role == Person::BARBACK)
+    barbacks << p
+  end
+end
+%>
 <div class='fields'%>
   <ul class="pageitem">
     <li class="select">
       <span class="name"><%=f.label :person_id %>:</span>
-      <%=f.collection_select :person_id, Person.all, :id, :name%>
+      <%=f.collection_select :person_id, barbacks, :id, :name%>
     </li>
     <li class="select">
       <span class="name"><%=f.label :time_in %>:</span>

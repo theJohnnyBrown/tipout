@@ -1,10 +1,11 @@
 
 <% form_for @day do |f| %>
   <%= f.error_messages %>
-  <p>
-    <%= f.label :when %><br />
-    <%= f.text_field :when %>
-  </p>
+
+    <span class="graytitle"><%= f.label :when %></span>
+    <ul class="pageitem">    
+      <li class="bigfield"><%= f.text_field :when %></li>
+    </ul>  
    <span class="graytitle">Total Tips:</span>
   <ul class="pageitem">
     <li class="bigfield"><%= f.text_field :total_tips%></li>
@@ -15,10 +16,27 @@
     <li class="bigfield"><%= f.text_field :tipout_pct %></li>
   </ul>
   
-  <h3>Shifts</h3>
-  <% f.fields_for :shifts do |shift_form| %>
-    <%= render :partial => 'shift', :locals => { :f => shift_form } %>
-  <% end %>
-  <p><%= add_child_link "New shift", f, :shifts %></p>
-  <p><%= f.submit "Submit" %></p>
+  <h3>Bartenders</h3>
+  <div id="bartenders">
+    <% f.fields_for :shifts do |shift_form| %>
+      <%= render :partial => 'bartenders', :locals => { :f => shift_form } %>
+    <% end %>
+
+    <%= add_child_iWebKit_button "Add bartender", f, :shifts, {:partial => "bartenders"} %></p>
+  </div>
+  
+  <h3>Barbacks</h3>
+  <div id="barbacks">
+    <% f.fields_for :shifts do |shift_form| %>
+      <%= render :partial => 'barbacks', :locals => { :f => shift_form } %>
+    <% end %>
+
+    <%= add_child_iWebKit_button "Add barback", f, :shifts, {:partial => "barbacks"} %></p>
+  </div>
+  
+  <ul class="pageitem">
+    <li class="button">
+      <%= f.submit 'continue' %>
+    </li>
+  </ul>
 <% end %>

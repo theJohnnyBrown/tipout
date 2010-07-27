@@ -35704,3 +35704,1657 @@ Rendering days/new
   [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
 Rendered days/_shift (17.2ms)
 Completed in 145ms (View: 124, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 22:24:26) [GET]
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (19.6ms)
+Completed in 1354ms (View: 1160, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:08:09) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (53.9ms)
+Completed in 421ms (View: 296, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:15:56) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (58.4ms)
+Completed in 592ms (View: 563, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:16:07) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (18.4ms)
+Completed in 149ms (View: 122, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:17:27) [GET]
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (21.1ms)
+Completed in 232ms (View: 211, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:22:03) [GET]
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (23.5ms)
+Completed in 141ms (View: 121, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:28:38) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (18.2ms)
+Completed in 229ms (View: 122, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:31:21) [GET]
+  [4;35;1mPerson Load (2.8ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (23.6ms)
+Completed in 133ms (View: 113, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:42:30) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (28.0ms)
+Completed in 150ms (View: 128, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:43:30) [GET]
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (23.1ms)
+Completed in 129ms (View: 109, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:47:38) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (25.1ms)
+Completed in 134ms (View: 111, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:47:50) [GET]
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (23.8ms)
+Completed in 131ms (View: 110, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:48:05) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (23.5ms)
+Completed in 133ms (View: 111, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:48:36) [GET]
+  [4;35;1mPerson Load (3.0ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (18.1ms)
+Completed in 130ms (View: 109, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:48:44) [GET]
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (22.0ms)
+Completed in 222ms (View: 203, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-21 23:50:49) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (24.2ms)
+Completed in 143ms (View: 120, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#create (for 127.0.0.1 at 2010-07-21 23:53:36) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"z1lBKUdbRQYT7Cc4PJZI7b59VRbzORvqWkp8tRc+pqc=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"555", "shifts_attributes"=>{"1279774263334"=>{"second_floor"=>"0", "time_in"=>"02:00 PM", "closing_barback"=>"1", "person_id"=>"15", "time_out"=>"11:30 PM"}, "1279774252733"=>{"second_floor"=>"0", "time_in"=>"12:00 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"12:00 PM"}, "1279774258649"=>{"second_floor"=>"0", "time_in"=>"12:30 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"08:30 PM"}, "1279774260389"=>{"second_floor"=>"1", "time_in"=>"01:00 PM", "closing_barback"=>"0", "person_id"=>"7", "time_out"=>"09:30 PM"}}, "when"=>"2007-04-04"}}
+  [4;35;1mDay Create (23.2ms)[0m   [0mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(555, 5, '2010-07-22 04:53:36', '2010-07-22 04:53:36', NULL, '2007-04-04')[0m
+  [4;36;1mShift Create (0.3ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 04:53:36', '2010-07-22 04:53:36', 'f', '2010-07-22 12:00:00', 6, 'f', '2010-07-22 12:00:00', 60)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 04:53:36', '2010-07-22 04:53:36', 'f', '2010-07-22 12:30:00', 6, 'f', '2010-07-22 20:30:00', 60)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 04:53:36', '2010-07-22 04:53:36', 't', '2010-07-22 13:00:00', 7, 'f', '2010-07-22 21:30:00', 60)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 04:53:36', '2010-07-22 04:53:36', 'f', '2010-07-22 14:00:00', 15, 't', '2010-07-22 23:30:00', 60)[0m
+  [4;36;1mPerson Load (1.6ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+  [4;35;1mPerson Load (1.0ms)[0m   [0mSELECT "people".* FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE (("shifts".day_id = 60)) [0m
+  [4;36;1mShift Load (2.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 60) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 60)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 60) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 60)) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 60) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 60) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 60)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 60) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 60)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 60) LIMIT 1[0m
+
+ActionView::TemplateError (Infinity) on line #12 of app/views/days/show.html.erb:
+9:     <li class="bigfield"><span class = "name">Barback 15%: </span><span class = "value"><%= @day.barback_total %></span></li>
+10:     <li class="bigfield"><span class = "name">Net Tips: </span><span class = "value"><%= @day.net_tips %></span></li>
+11:     <li class="bigfield"><span class = "name">Bartender Hours:</span><span class = "value"><%= @day.bartender_hours %></span></li>
+12:     <li class="bigfield"><span class = "name">Bartender Tips/hour:</span><span class = "value"><%= @day.bartender_hourly %></span></li>
+13:     <li class="bigfield"><span class = "name">Barback hours:</span><span class = "value"><%= @day.barback_hours %></span></li>
+14:     <li class="bigfield"><span class = "name">Barback Tips/hour:</span><span class = "value"><%= @day.barback_hourly %></span></li>
+15:     <li class="bigfield"><span class = "name">Barback Tipout %:</span><span class = "value"><%= @day.tipout_pct %></span></li>
+
+    app/models/day.rb:68:in `bartender_hourly'
+    app/views/days/show.html.erb:12
+    app/controllers/days_controller.rb:29:in `create'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (68.5ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#create (for 127.0.0.1 at 2010-07-21 23:55:55) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"z1lBKUdbRQYT7Cc4PJZI7b59VRbzORvqWkp8tRc+pqc=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"555", "shifts_attributes"=>{"1279774509042"=>{"second_floor"=>"0", "time_in"=>"12:30 PM", "closing_barback"=>"0", "person_id"=>"7", "time_out"=>"07:30 PM"}, "1279774442807"=>{"second_floor"=>"1", "time_in"=>"12:30 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"07:00 PM"}, "1279774511282"=>{"second_floor"=>"0", "time_in"=>"12:30 PM", "closing_barback"=>"1", "person_id"=>"15", "time_out"=>"05:00 PM"}}, "when"=>"2007-04-04"}}
+  [4;36;1mDay Create (0.4ms)[0m   [0;1mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(555, 5, '2010-07-22 04:55:55', '2010-07-22 04:55:55', NULL, '2007-04-04')[0m
+  [4;35;1mShift Create (0.3ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 04:55:55', '2010-07-22 04:55:55', 't', '2010-07-22 12:30:00', 6, 'f', '2010-07-22 19:00:00', 61)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 04:55:55', '2010-07-22 04:55:55', 'f', '2010-07-22 12:30:00', 7, 'f', '2010-07-22 19:30:00', 61)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 04:55:55', '2010-07-22 04:55:55', 'f', '2010-07-22 12:30:00', 15, 't', '2010-07-22 17:00:00', 61)[0m
+  [4;36;1mPerson Load (1.6ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT "people".* FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE (("shifts".day_id = 61)) [0m
+  [4;36;1mShift Load (1.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mShift Load (0.8ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 61)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 61) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 61) LIMIT 1[0m
+Completed in 139ms (View: 64, DB: 9) | 200 OK [http://localhost/days]
+
+
+Processing DaysController#new (for 192.168.1.100 at 2010-07-21 23:57:11) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (17.2ms)
+Completed in 227ms (View: 99, DB: 2) | 200 OK [http://192.168.1.106/]
+
+
+Processing DaysController#create (for 192.168.1.100 at 2010-07-22 00:00:25) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"UzGPsQdDNPcRo3aIRF5rL2JpjhqeX8Cses4FqCT0Mu8=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"1111", "shifts_attributes"=>{"1279774718745"=>{"second_floor"=>"1", "time_in"=>"12:30 PM", "closing_barback"=>"0", "person_id"=>"8", "time_out"=>"07:00 PM"}, "1279774755455"=>{"second_floor"=>"0", "time_in"=>"12:30 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"08:00 PM"}, "1279774803791"=>{"second_floor"=>"0", "time_in"=>"12:00 PM", "closing_barback"=>"0", "person_id"=>"16", "time_out"=>"12:00 PM"}, "1279774773549"=>{"second_floor"=>"0", "time_in"=>"02:00 PM", "closing_barback"=>"1", "person_id"=>"14", "time_out"=>"08:00 PM"}}, "when"=>"2009-11-11"}}
+  [4;35;1mDay Create (0.4ms)[0m   [0mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(1111, 5, '2010-07-22 05:00:25', '2010-07-22 05:00:25', NULL, '2009-11-11')[0m
+  [4;36;1mShift Create (0.3ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 05:00:25', '2010-07-22 05:00:25', 't', '2010-07-22 12:30:00', 8, 'f', '2010-07-22 19:00:00', 62)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 05:00:25', '2010-07-22 05:00:25', 'f', '2010-07-22 12:30:00', 6, 'f', '2010-07-22 20:00:00', 62)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 05:00:25', '2010-07-22 05:00:25', 'f', '2010-07-22 14:00:00', 14, 't', '2010-07-22 20:00:00', 62)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-22 05:00:25', '2010-07-22 05:00:25', 'f', '2010-07-22 12:00:00', 16, 'f', '2010-07-22 12:00:00', 62)[0m
+  [4;36;1mPerson Load (1.7ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+  [4;35;1mPerson Load (0.9ms)[0m   [0mSELECT "people".* FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE (("shifts".day_id = 62)) [0m
+  [4;36;1mShift Load (0.7ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 16 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 62)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 62) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 16) AND ("shifts".day_id = 62) LIMIT 1[0m
+Completed in 170ms (View: 95, DB: 9) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#index (for 192.168.1.100 at 2010-07-22 00:02:04) [GET]
+  [4;35;1mDay Load (5.0ms)[0m   [0mSELECT * FROM "days" [0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 206ms (View: 108, DB: 5) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#destroy (for 192.168.1.100 at 2010-07-22 00:02:13) [DELETE]
+  Parameters: {"authenticity_token"=>"UzGPsQdDNPcRo3aIRF5rL2JpjhqeX8Cses4FqCT0Mu8=", "id"=>"61"}
+  [4;36;1mDay Load (0.5ms)[0m   [0;1mSELECT * FROM "days" WHERE ("days"."id" = 61) [0m
+  [4;35;1mShift Load (1.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".day_id = 61) [0m
+  [4;36;1mShift Destroy (0.6ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 187[0m
+  [4;35;1mShift Destroy (0.2ms)[0m   [0mDELETE FROM "shifts" WHERE "id" = 188[0m
+  [4;36;1mShift Destroy (0.1ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 189[0m
+  [4;35;1mDay Destroy (0.2ms)[0m   [0mDELETE FROM "days" WHERE "id" = 61[0m
+Redirected to http://192.168.1.106:3002/days
+Completed in 33ms (DB: 3) | 302 Found [http://192.168.1.106/days/61]
+
+
+Processing DaysController#index (for 192.168.1.100 at 2010-07-22 00:02:13) [GET]
+  [4;36;1mDay Load (4.5ms)[0m   [0;1mSELECT * FROM "days" [0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 117ms (View: 100, DB: 5) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#destroy (for 192.168.1.100 at 2010-07-22 00:02:21) [DELETE]
+  Parameters: {"authenticity_token"=>"UzGPsQdDNPcRo3aIRF5rL2JpjhqeX8Cses4FqCT0Mu8=", "id"=>"60"}
+  [4;35;1mDay Load (0.5ms)[0m   [0mSELECT * FROM "days" WHERE ("days"."id" = 60) [0m
+  [4;36;1mShift Load (1.2ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".day_id = 60) [0m
+  [4;35;1mShift Destroy (0.3ms)[0m   [0mDELETE FROM "shifts" WHERE "id" = 183[0m
+  [4;36;1mShift Destroy (0.2ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 184[0m
+  [4;35;1mShift Destroy (0.1ms)[0m   [0mDELETE FROM "shifts" WHERE "id" = 185[0m
+  [4;36;1mShift Destroy (0.3ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 186[0m
+  [4;35;1mDay Destroy (0.2ms)[0m   [0mDELETE FROM "days" WHERE "id" = 60[0m
+Redirected to http://192.168.1.106:3002/days
+Completed in 32ms (DB: 3) | 302 Found [http://192.168.1.106/days/60]
+
+
+Processing DaysController#index (for 192.168.1.100 at 2010-07-22 00:02:21) [GET]
+  [4;36;1mDay Load (4.5ms)[0m   [0;1mSELECT * FROM "days" [0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 202ms (View: 186, DB: 4) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#destroy (for 192.168.1.100 at 2010-07-22 00:02:29) [DELETE]
+  Parameters: {"authenticity_token"=>"UzGPsQdDNPcRo3aIRF5rL2JpjhqeX8Cses4FqCT0Mu8=", "id"=>"53"}
+  [4;35;1mDay Load (0.5ms)[0m   [0mSELECT * FROM "days" WHERE ("days"."id" = 53) [0m
+  [4;36;1mShift Load (0.9ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".day_id = 53) [0m
+  [4;35;1mShift Destroy (0.4ms)[0m   [0mDELETE FROM "shifts" WHERE "id" = 169[0m
+  [4;36;1mShift Destroy (0.2ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 170[0m
+  [4;35;1mDay Destroy (0.2ms)[0m   [0mDELETE FROM "days" WHERE "id" = 53[0m
+Redirected to http://192.168.1.106:3002/days
+Completed in 32ms (DB: 2) | 302 Found [http://192.168.1.106/days/53]
+
+
+Processing DaysController#index (for 192.168.1.100 at 2010-07-22 00:02:29) [GET]
+  [4;36;1mDay Load (4.7ms)[0m   [0;1mSELECT * FROM "days" [0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 112ms (View: 95, DB: 5) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#destroy (for 192.168.1.100 at 2010-07-22 00:02:38) [DELETE]
+  Parameters: {"authenticity_token"=>"UzGPsQdDNPcRo3aIRF5rL2JpjhqeX8Cses4FqCT0Mu8=", "id"=>"54"}
+  [4;35;1mDay Load (0.5ms)[0m   [0mSELECT * FROM "days" WHERE ("days"."id" = 54) [0m
+  [4;36;1mShift Load (0.8ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".day_id = 54) [0m
+  [4;35;1mShift Destroy (0.3ms)[0m   [0mDELETE FROM "shifts" WHERE "id" = 171[0m
+  [4;36;1mShift Destroy (0.1ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 172[0m
+  [4;35;1mDay Destroy (0.2ms)[0m   [0mDELETE FROM "days" WHERE "id" = 54[0m
+Redirected to http://192.168.1.106:3002/days
+Completed in 31ms (DB: 2) | 302 Found [http://192.168.1.106/days/54]
+
+
+Processing DaysController#index (for 192.168.1.100 at 2010-07-22 00:02:38) [GET]
+  [4;36;1mDay Load (4.2ms)[0m   [0;1mSELECT * FROM "days" [0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 106ms (View: 90, DB: 4) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#destroy (for 192.168.1.100 at 2010-07-22 00:02:47) [DELETE]
+  Parameters: {"authenticity_token"=>"UzGPsQdDNPcRo3aIRF5rL2JpjhqeX8Cses4FqCT0Mu8=", "id"=>"57"}
+  [4;35;1mDay Load (0.5ms)[0m   [0mSELECT * FROM "days" WHERE ("days"."id" = 57) [0m
+  [4;36;1mShift Load (0.9ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".day_id = 57) [0m
+  [4;35;1mShift Destroy (0.4ms)[0m   [0mDELETE FROM "shifts" WHERE "id" = 173[0m
+  [4;36;1mShift Destroy (0.2ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 174[0m
+  [4;35;1mDay Destroy (0.3ms)[0m   [0mDELETE FROM "days" WHERE "id" = 57[0m
+Redirected to http://192.168.1.106:3002/days
+Completed in 118ms (DB: 2) | 302 Found [http://192.168.1.106/days/57]
+
+
+Processing DaysController#index (for 192.168.1.100 at 2010-07-22 00:02:47) [GET]
+  [4;36;1mDay Load (4.1ms)[0m   [0;1mSELECT * FROM "days" [0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 107ms (View: 90, DB: 4) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#destroy (for 192.168.1.100 at 2010-07-22 00:03:01) [DELETE]
+  Parameters: {"authenticity_token"=>"UzGPsQdDNPcRo3aIRF5rL2JpjhqeX8Cses4FqCT0Mu8=", "id"=>"52"}
+  [4;35;1mDay Load (0.4ms)[0m   [0mSELECT * FROM "days" WHERE ("days"."id" = 52) [0m
+  [4;36;1mShift Load (1.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".day_id = 52) [0m
+  [4;35;1mShift Destroy (0.4ms)[0m   [0mDELETE FROM "shifts" WHERE "id" = 167[0m
+  [4;36;1mShift Destroy (0.2ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 168[0m
+  [4;35;1mDay Destroy (0.2ms)[0m   [0mDELETE FROM "days" WHERE "id" = 52[0m
+Redirected to http://192.168.1.106:3002/days
+Completed in 31ms (DB: 2) | 302 Found [http://192.168.1.106/days/52]
+
+
+Processing DaysController#index (for 192.168.1.100 at 2010-07-22 00:03:01) [GET]
+  [4;36;1mDay Load (3.9ms)[0m   [0;1mSELECT * FROM "days" [0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 100ms (View: 85, DB: 4) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#destroy (for 192.168.1.100 at 2010-07-22 00:03:14) [DELETE]
+  Parameters: {"authenticity_token"=>"UzGPsQdDNPcRo3aIRF5rL2JpjhqeX8Cses4FqCT0Mu8=", "id"=>"46"}
+  [4;35;1mDay Load (0.4ms)[0m   [0mSELECT * FROM "days" WHERE ("days"."id" = 46) [0m
+  [4;36;1mShift Load (1.1ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".day_id = 46) [0m
+  [4;35;1mShift Destroy (0.4ms)[0m   [0mDELETE FROM "shifts" WHERE "id" = 163[0m
+  [4;36;1mShift Destroy (0.2ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 164[0m
+  [4;35;1mShift Destroy (0.1ms)[0m   [0mDELETE FROM "shifts" WHERE "id" = 165[0m
+  [4;36;1mShift Destroy (0.2ms)[0m   [0;1mDELETE FROM "shifts" WHERE "id" = 166[0m
+  [4;35;1mDay Destroy (0.2ms)[0m   [0mDELETE FROM "days" WHERE "id" = 46[0m
+Redirected to http://192.168.1.106:3002/days
+Completed in 33ms (DB: 3) | 302 Found [http://192.168.1.106/days/46]
+
+
+Processing DaysController#index (for 192.168.1.100 at 2010-07-22 00:03:15) [GET]
+  [4;36;1mDay Load (4.0ms)[0m   [0;1mSELECT * FROM "days" [0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 102ms (View: 85, DB: 4) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-22 00:04:41) [GET]
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendered days/_shift (18.4ms)
+Completed in 156ms (View: 112, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 15:38:53) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+Rendered days/_shift (106.5ms)
+Completed in 1039ms (View: 815, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 15:47:34) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+Rendered days/_shift (29.3ms)
+Completed in 182ms (View: 157, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#create (for 127.0.0.1 at 2010-07-26 15:49:06) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"EBMZThsXE0MegQhonuK5dekfL38+fsaRAtcIoZBImfw=", "day"=>{"tipout_pct"=>"", "total_tips"=>"", "shifts_attributes"=>{"1280177256488"=>{"second_floor"=>"0", "time_in"=>"12:30 PM", "closing_barback"=>"0", "person_id"=>"8", "time_out"=>"04:30 PM"}, "1280177283316"=>{"second_floor"=>"0", "time_in"=>"01:00 PM", "closing_barback"=>"0", "person_id"=>"9", "time_out"=>"06:30 PM"}, "1280177338067"=>{"second_floor"=>"0", "time_in"=>"12:00 PM", "closing_barback"=>"1", "person_id"=>"15", "time_out"=>"12:00 PM"}, "1280177282180"=>{"second_floor"=>"0", "time_in"=>"01:30 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"08:00 PM"}}, "when"=>""}}
+  [4;36;1mDay Create (25.0ms)[0m   [0;1mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(NULL, NULL, '2010-07-26 20:49:07', '2010-07-26 20:49:07', NULL, '2010-07-25')[0m
+  [4;35;1mShift Create (0.4ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:49:07', '2010-07-26 20:49:07', 'f', '2010-07-26 12:30:00', 8, 'f', '2010-07-26 16:30:00', 63)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:49:07', '2010-07-26 20:49:07', 'f', '2010-07-26 13:30:00', 6, 'f', '2010-07-26 20:00:00', 63)[0m
+  [4;35;1mShift Create (0.3ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:49:07', '2010-07-26 20:49:07', 'f', '2010-07-26 13:00:00', 9, 'f', '2010-07-26 18:30:00', 63)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:49:07', '2010-07-26 20:49:07', 'f', '2010-07-26 12:00:00', 15, 't', '2010-07-26 12:00:00', 63)[0m
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.*) on line #8 of app/views/days/show.html.erb:
+5: 
+6:   <ul class="pageitem">
+7:     <li class="bigfield"><span class = "name">Total Tips:</span><span class = "value"><%= @day.total_tips %></span></li>
+8:     <li class="bigfield"><span class = "name">10% Second Floor:</span><span class = "value"><%= @day.second_floor %></span></li>
+9:     <li class="bigfield"><span class = "name">Barback 15%: </span><span class = "value"><%= @day.barback_total %></span></li>
+10:     <li class="bigfield"><span class = "name">Net Tips: </span><span class = "value"><%= @day.net_tips %></span></li>
+11:     <li class="bigfield"><span class = "name">Bartender Hours:</span><span class = "value"><%= @day.bartender_hours %></span></li>
+
+    app/models/day.rb:64:in `second_floor'
+    app/views/days/show.html.erb:8
+    app/controllers/days_controller.rb:29:in `create'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (136.4ms)
+Rendered rescues/_request_and_response (10.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#create (for 127.0.0.1 at 2010-07-26 15:50:45) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"EBMZThsXE0MegQhonuK5dekfL38+fsaRAtcIoZBImfw=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"444", "shifts_attributes"=>{"1280177425016"=>{"second_floor"=>"0", "time_in"=>"12:30 PM", "closing_barback"=>"1", "person_id"=>"15", "time_out"=>"09:30 PM"}, "1280177396537"=>{"second_floor"=>"0", "time_in"=>"02:00 PM", "closing_barback"=>"0", "person_id"=>"9", "time_out"=>"09:00 PM"}, "1280177376099"=>{"second_floor"=>"0", "time_in"=>"02:00 PM", "closing_barback"=>"0", "person_id"=>"12", "time_out"=>"07:00 PM"}, "1280177387856"=>{"second_floor"=>"0", "time_in"=>"12:30 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"08:30 PM"}}, "when"=>""}}
+  [4;36;1mDay Create (0.4ms)[0m   [0;1mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(444, 5, '2010-07-26 20:50:45', '2010-07-26 20:50:45', NULL, '2010-07-25')[0m
+  [4;35;1mShift Create (0.3ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:50:45', '2010-07-26 20:50:45', 'f', '2010-07-26 14:00:00', 12, 'f', '2010-07-26 19:00:00', 64)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:50:45', '2010-07-26 20:50:45', 'f', '2010-07-26 12:30:00', 6, 'f', '2010-07-26 20:30:00', 64)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:50:45', '2010-07-26 20:50:45', 'f', '2010-07-26 14:00:00', 9, 'f', '2010-07-26 21:00:00', 64)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:50:45', '2010-07-26 20:50:45', 'f', '2010-07-26 12:30:00', 15, 't', '2010-07-26 21:30:00', 64)[0m
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT "people".* FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE (("shifts".day_id = 64)) [0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 9 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 64)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 9) AND ("shifts".day_id = 64) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 64) LIMIT 1[0m
+Completed in 227ms (View: 135, DB: 9) | 200 OK [http://localhost/days]
+
+
+Processing DaysController#index (for 127.0.0.1 at 2010-07-26 15:56:07) [GET]
+  [4;35;1mDay Load (39.1ms)[0m   [0mSELECT * FROM "days" [0m
+Rendering template within layouts/application
+Rendering days/index
+Completed in 151ms (View: 98, DB: 39) | 200 OK [http://localhost/days]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 15:56:22) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (19.3ms)
+Completed in 130ms (View: 103, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#create (for 127.0.0.1 at 2010-07-26 15:57:51) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"EBMZThsXE0MegQhonuK5dekfL38+fsaRAtcIoZBImfw=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"666", "shifts_attributes"=>{"1280177795627"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"12:30 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"07:30 PM"}, "1280177802254"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"02:30 PM", "closing_barback"=>"0", "person_id"=>"15", "time_out"=>"09:30 PM"}, "1280177799298"=>{"_delete"=>"1", "second_floor"=>"0", "time_in"=>"01:00 PM", "closing_barback"=>"0", "person_id"=>"9", "time_out"=>"08:00 PM"}, "1280177798289"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"12:30 PM", "closing_barback"=>"0", "person_id"=>"8", "time_out"=>"08:30 PM"}}, "when"=>""}}
+  [4;36;1mDay Create (0.4ms)[0m   [0;1mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(666, 5, '2010-07-26 20:57:51', '2010-07-26 20:57:51', NULL, '2010-07-25')[0m
+  [4;35;1mShift Create (0.3ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:57:51', '2010-07-26 20:57:51', 'f', '2010-07-26 12:30:00', 6, 'f', '2010-07-26 19:30:00', 65)[0m
+  [4;36;1mShift Create (0.3ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:57:51', '2010-07-26 20:57:51', 'f', '2010-07-26 12:30:00', 8, 'f', '2010-07-26 20:30:00', 65)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 20:57:51', '2010-07-26 20:57:51', 'f', '2010-07-26 14:30:00', 15, 'f', '2010-07-26 21:30:00', 65)[0m
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+  [4;35;1mPerson Load (0.9ms)[0m   [0mSELECT "people".* FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE (("shifts".day_id = 65)) [0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 8) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 8 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mShift Load (0.7ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 65) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 15 AND ("shifts"."day_id" = 65)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 15) AND ("shifts".day_id = 65) LIMIT 1[0m
+Completed in 162ms (View: 86, DB: 7) | 200 OK [http://localhost/days]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 16:03:14) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (18.7ms)
+Completed in 259ms (View: 120, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mShift Create (25.8ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 21:46:58', '2010-07-26 21:46:58', NULL, '2010-07-26 19:00:00', NULL, NULL, '2010-07-27 03:00:00', NULL)[0m
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 16:48:41) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (18.2ms)
+Completed in 290ms (View: 210, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 16:58:48) [GET]
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (31.9ms)
+Completed in 300ms (View: 259, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:01:00) [GET]
+  [4;36;1mPerson Load (1.8ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (20.1ms)
+Completed in 260ms (View: 180, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:06:37) [GET]
+
+SyntaxError (/home/johnny/Documents/tipout_bartenders/ror/tipout/app/models/day.rb:26: syntax error, unexpected '}'
+    attr_with_defaults = {:when => }.merge(attributes)
+                                    ^):
+  app/controllers/days_controller.rb:8:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (204.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:07:06) [GET]
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (20.6ms)
+Completed in 131ms (View: 108, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:07:19) [GET]
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (18.3ms)
+Completed in 275ms (View: 252, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:09:23) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (20.8ms)
+Completed in 184ms (View: 125, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:09:44) [GET]
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (19.8ms)
+Completed in 247ms (View: 223, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:48:18) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (28.2ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (13.8ms)
+Completed in 963ms (View: 851, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:49:50) [GET]
+  [4;35;1mPerson Load (1.6ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (20.0ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (13.3ms)
+Completed in 620ms (View: 230, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:50:43) [GET]
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (18.9ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (14.1ms)
+Completed in 472ms (View: 384, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:51:47) [GET]
+  [4;35;1mPerson Load (1.6ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+
+ActionView::TemplateError (undefined method `klass' for nil:NilClass) on line #25 of app/views/days/new.html.erb:
+22:       <%= render :partial => 'bartenders', :locals => { :f => shift_form } %>
+23:     <% end %>
+24: 
+25:     <%= add_child_iWebKit_button "Add bartender", f, :bartenders %></p>
+26:   </div>
+27:   
+28:   <h3>Barbacks</h3>
+
+    app/helpers/application_helper.rb:17:in `new_child_fields'
+    app/helpers/application_helper.rb:31:in `add_child_iWebKit_button'
+    app/views/days/new.html.erb:25
+    app/views/days/new.html.erb:2
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (70.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+/!\ FAILSAFE /!\  Mon Jul 26 17:54:48 -0500 2010
+  Status: 500 Internal Server Error
+  /home/johnny/Documents/tipout_bartenders/ror/tipout/app/helpers/application_helper.rb:30: syntax error, unexpected tASSOC, expecting ')'
+  def add_child_iWebKit_button(name,f,method, options => {})
+                                                        ^
+/home/johnny/Documents/tipout_bartenders/ror/tipout/app/helpers/application_helper.rb:35: syntax error, unexpected kEND, expecting $end
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:197:in `default_helper_module!'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:212:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:212:in `inherited'
+    /home/johnny/Documents/tipout_bartenders/ror/tipout/app/controllers/application_controller.rb:4
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Mon Jul 26 17:55:10 -0500 2010
+  Status: 500 Internal Server Error
+  /home/johnny/Documents/tipout_bartenders/ror/tipout/app/helpers/application_helper.rb:30: syntax error, unexpected tASSOC, expecting ')'
+  def add_child_iWebKit_button(name,f,method, options => {})
+                                                        ^
+/home/johnny/Documents/tipout_bartenders/ror/tipout/app/helpers/application_helper.rb:35: syntax error, unexpected kEND, expecting $end
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:197:in `default_helper_module!'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:212:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/helpers.rb:212:in `inherited'
+    /home/johnny/Documents/tipout_bartenders/ror/tipout/app/controllers/application_controller.rb:4
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:55:45) [GET]
+  [4;36;1mPerson Load (1.6ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (20.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_shift (13.1ms)
+Completed in 267ms (View: 232, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:56:33) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_bartenders (25.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_bartenders (110.4ms)
+Completed in 313ms (View: 291, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 127.0.0.1 at 2010-07-26 17:57:10) [GET]
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_bartenders (24.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_barbacks (32.6ms)
+Completed in 250ms (View: 226, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing DaysController#new (for 192.168.1.101 at 2010-07-26 17:59:34) [GET]
+  [4;35;1mPerson Load (1.6ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_bartenders (18.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_barbacks (13.6ms)
+Completed in 251ms (View: 227, DB: 2) | 200 OK [http://192.168.1.106/]
+
+
+Processing DaysController#create (for 192.168.1.101 at 2010-07-26 18:02:33) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"RuKfCiyUumaLGYzNhaDiOqiKizXwvedN6oTb6aicApw=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"1000", "shifts_attributes"=>{"1280185203401"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"09:00 PM", "closing_barback"=>"0", "person_id"=>"10", "time_out"=>"05:30 AM"}, "1280185209806"=>{"_delete"=>"", "second_floor"=>"1", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"12", "time_out"=>"03:00 AM"}, "1280185194473"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"09:00 PM", "closing_barback"=>"1", "person_id"=>"13", "time_out"=>"05:30 AM"}, "1280185199897"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"1", "person_id"=>"14", "time_out"=>"05:30 AM"}, "1280185185831"=>{"_delete"=>"", "second_floor"=>"1", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"03:00 AM"}, "1280185188683"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"7", "time_out"=>"05:00 AM"}}, "when"=>"2010-07-25"}}
+  [4;36;1mDay Create (14.0ms)[0m   [0;1mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(1000, 5, '2010-07-26 23:02:33', '2010-07-26 23:02:33', NULL, '2010-07-25')[0m
+  [4;35;1mShift Create (0.3ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:02:33', '2010-07-26 23:02:33', 't', '2010-07-26 19:00:00', 6, 'f', '2010-07-27 03:00:00', 66)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:02:33', '2010-07-26 23:02:33', 'f', '2010-07-26 19:00:00', 7, 'f', '2010-07-27 05:00:00', 66)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:02:33', '2010-07-26 23:02:33', 'f', '2010-07-26 21:00:00', 13, 't', '2010-07-27 05:30:00', 66)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:02:33', '2010-07-26 23:02:33', 'f', '2010-07-26 19:00:00', 14, 't', '2010-07-27 05:30:00', 66)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:02:33', '2010-07-26 23:02:33', 'f', '2010-07-26 21:00:00', 10, 'f', '2010-07-27 05:30:00', 66)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:02:33', '2010-07-26 23:02:33', 't', '2010-07-26 19:00:00', 12, 'f', '2010-07-27 03:00:00', 66)[0m
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+  [4;36;1mPerson Load (1.2ms)[0m   [0;1mSELECT "people".* FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE (("shifts".day_id = 66)) [0m
+  [4;35;1mShift Load (1.2ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mShift Load (0.7ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mShift Load (0.7ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mShift Load (0.7ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mShift Load (0.7ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mShift Load (0.9ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 66)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 66) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 66) LIMIT 1[0m
+Completed in 370ms (View: 243, DB: 26) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#new (for 192.168.1.101 at 2010-07-26 18:04:39) [GET]
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_bartenders (18.2ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "people" [0m
+DEPRECATION WARNING: _delete is deprecated in nested attributes. Use _destroy instead.. (called from _delete at /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/nested_attributes.rb:263)
+Rendered days/_barbacks (12.7ms)
+Completed in 193ms (View: 170, DB: 2) | 200 OK [http://192.168.1.106/]
+
+
+Processing DaysController#create (for 192.168.1.101 at 2010-07-26 18:06:56) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"RuKfCiyUumaLGYzNhaDiOqiKizXwvedN6oTb6aicApw=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"1000", "shifts_attributes"=>{"1280185497641"=>{"_delete"=>"", "second_floor"=>"1", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"03:00 AM"}, "1280185565687"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"09:00 PM", "closing_barback"=>"1", "person_id"=>"14", "time_out"=>"05:30 AM"}, "1280185495136"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"7", "time_out"=>"05:00 AM"}, "1280185568752"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"1", "person_id"=>"13", "time_out"=>"05:30 AM"}, "1280185492731"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"09:00 PM", "closing_barback"=>"0", "person_id"=>"10", "time_out"=>"05:30 AM"}, "1280185490499"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"12", "time_out"=>"03:00 AM"}}, "when"=>"2010-07-25"}}
+  [4;36;1mDay Create (0.6ms)[0m   [0;1mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(1000, 5, '2010-07-26 23:06:57', '2010-07-26 23:06:57', NULL, '2010-07-25')[0m
+  [4;35;1mShift Create (0.3ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:06:57', '2010-07-26 23:06:57', 'f', '2010-07-26 19:00:00', 12, 'f', '2010-07-27 03:00:00', 67)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:06:57', '2010-07-26 23:06:57', 'f', '2010-07-26 21:00:00', 10, 'f', '2010-07-27 05:30:00', 67)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:06:57', '2010-07-26 23:06:57', 'f', '2010-07-26 19:00:00', 7, 'f', '2010-07-27 05:00:00', 67)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:06:57', '2010-07-26 23:06:57', 't', '2010-07-26 19:00:00', 6, 'f', '2010-07-27 03:00:00', 67)[0m
+  [4;35;1mShift Create (0.3ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:06:57', '2010-07-26 23:06:57', 'f', '2010-07-26 21:00:00', 14, 't', '2010-07-27 05:30:00', 67)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:06:57', '2010-07-26 23:06:57', 'f', '2010-07-26 19:00:00', 13, 't', '2010-07-27 05:30:00', 67)[0m
+  [4;35;1mPerson Load (1.6ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+  [4;36;1mPerson Load (1.3ms)[0m   [0;1mSELECT "people".* FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE (("shifts".day_id = 67)) [0m
+  [4;35;1mShift Load (0.7ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mShift Load (0.7ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mShift Load (0.7ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mShift Load (0.7ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 12 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 10 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 7 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mShift Load (0.7ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 14 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 67)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 12) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 10) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 7) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 14) AND ("shifts".day_id = 67) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 67) LIMIT 1[0m
+Completed in 404ms (View: 191, DB: 13) | 200 OK [http://192.168.1.106/days]
+
+
+Processing DaysController#create (for 127.0.0.1 at 2010-07-26 18:17:00) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"EBMZThsXE0MegQhonuK5dekfL38+fsaRAtcIoZBImfw=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"", "shifts_attributes"=>{"1280186199993"=>{"_delete"=>"1", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"9", "time_out"=>"02:30 AM"}, "1280185041242"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"13", "time_out"=>"03:00 AM"}, "1280186197975"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"03:00 AM"}}, "when"=>"2010-07-25"}}
+  [4;35;1mDay Create (0.4ms)[0m   [0mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(NULL, 5, '2010-07-26 23:17:00', '2010-07-26 23:17:00', NULL, '2010-07-25')[0m
+  [4;36;1mShift Create (0.3ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:17:00', '2010-07-26 23:17:00', 'f', '2010-07-26 19:00:00', 13, 'f', '2010-07-27 03:00:00', 68)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:17:00', '2010-07-26 23:17:00', 'f', '2010-07-26 19:00:00', 6, 'f', '2010-07-27 03:00:00', 68)[0m
+  [4;36;1mPerson Load (1.6ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.*) on line #8 of app/views/days/show.html.erb:
+5: 
+6:   <ul class="pageitem">
+7:     <li class="bigfield"><span class = "name">Total Tips:</span><span class = "value"><%= @day.total_tips %></span></li>
+8:     <li class="bigfield"><span class = "name">10% Second Floor:</span><span class = "value"><%= @day.second_floor %></span></li>
+9:     <li class="bigfield"><span class = "name">Barback 15%: </span><span class = "value"><%= @day.barback_total %></span></li>
+10:     <li class="bigfield"><span class = "name">Net Tips: </span><span class = "value"><%= @day.net_tips %></span></li>
+11:     <li class="bigfield"><span class = "name">Bartender Hours:</span><span class = "value"><%= @day.bartender_hours %></span></li>
+
+    app/models/day.rb:67:in `second_floor'
+    app/views/days/show.html.erb:8
+    app/controllers/days_controller.rb:29:in `create'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (161.0ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DaysController#create (for 127.0.0.1 at 2010-07-26 18:17:21) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"EBMZThsXE0MegQhonuK5dekfL38+fsaRAtcIoZBImfw=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"333", "shifts_attributes"=>{"1280186236918"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"13", "time_out"=>"03:00 AM"}, "1280186228087"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"03:00 AM"}, "1280186229529"=>{"_delete"=>"1", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"10", "time_out"=>"04:00 AM"}}, "when"=>"2010-07-25"}}
+  [4;35;1mDay Create (0.4ms)[0m   [0mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(333, 5, '2010-07-26 23:17:21', '2010-07-26 23:17:21', NULL, '2010-07-25')[0m
+  [4;36;1mShift Create (0.3ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:17:21', '2010-07-26 23:17:21', 'f', '2010-07-26 19:00:00', 6, 'f', '2010-07-27 03:00:00', 69)[0m
+  [4;35;1mShift Create (0.2ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:17:21', '2010-07-26 23:17:21', 'f', '2010-07-26 19:00:00', 13, 'f', '2010-07-27 03:00:00', 69)[0m
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+  [4;35;1mPerson Load (1.0ms)[0m   [0mSELECT "people".* FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE (("shifts".day_id = 69)) [0m
+  [4;36;1mShift Load (0.6ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;35;1mShift Load (0.6ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;36;1mShift Load (0.7ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;36;1mShift Load (0.7ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 69) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 69)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 69) LIMIT 1[0m
+Completed in 113ms (View: 44, DB: 6) | 200 OK [http://localhost/days]
+
+
+Processing DaysController#create (for 127.0.0.1 at 2010-07-26 18:17:48) [POST]
+  Parameters: {"commit"=>"continue", "authenticity_token"=>"EBMZThsXE0MegQhonuK5dekfL38+fsaRAtcIoZBImfw=", "day"=>{"tipout_pct"=>"5", "total_tips"=>"333", "shifts_attributes"=>{"1280186260898"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"0", "person_id"=>"6", "time_out"=>"03:00 AM"}, "1280186263370"=>{"_delete"=>"", "second_floor"=>"0", "time_in"=>"07:00 PM", "closing_barback"=>"1", "person_id"=>"13", "time_out"=>"03:00 AM"}}, "when"=>"2010-07-25"}}
+  [4;36;1mDay Create (0.4ms)[0m   [0;1mINSERT INTO "days" ("total_tips", "tipout_pct", "created_at", "updated_at", "closer_id", "when") VALUES(333, 5, '2010-07-26 23:17:48', '2010-07-26 23:17:48', NULL, '2010-07-25')[0m
+  [4;35;1mShift Create (0.3ms)[0m   [0mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:17:48', '2010-07-26 23:17:48', 'f', '2010-07-26 19:00:00', 6, 'f', '2010-07-27 03:00:00', 70)[0m
+  [4;36;1mShift Create (0.2ms)[0m   [0;1mINSERT INTO "shifts" ("created_at", "updated_at", "second_floor", "time_in", "person_id", "closing_barback", "time_out", "day_id") VALUES('2010-07-26 23:17:48', '2010-07-26 23:17:48', 'f', '2010-07-26 19:00:00', 13, 't', '2010-07-27 03:00:00', 70)[0m
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering days/show
+  [4;36;1mPerson Load (0.7ms)[0m   [0;1mSELECT "people".* FROM "people" INNER JOIN "shifts" ON "people".id = "shifts".person_id WHERE (("shifts".day_id = 70)) [0m
+  [4;35;1mShift Load (0.8ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mShift Load (0.7ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;35;1mShift Load (0.7ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 6 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;35;1mShift Load (0.8ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts".person_id = 13 AND ("shifts"."day_id" = 70)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 6) AND ("shifts".day_id = 70) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "shifts" WHERE ("shifts"."person_id" = 13) AND ("shifts".day_id = 70) LIMIT 1[0m
+Completed in 124ms (View: 50, DB: 6) | 200 OK [http://localhost/days]
