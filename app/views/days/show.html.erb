@@ -35,7 +35,7 @@
          <td><%=person.hours(@day)%></td><%#see how ugly that is? all the data in this row should come from the same model. Ideally it would come from the person.%>
          <td><%= person.gross_tips(@day)%></td>
          <td><%=person.tipout(@day) %></td>
-         <td><%="$#{((person.tips(@day)*100).round)/100.0}"%></td>
+         <td><%="$#{((person.tips(@day)).round)}"%></td>
      </tr>
      <% end %>
    <% end %>
@@ -57,7 +57,7 @@
          <td><%=person.hours(@day)%></td>
          <td><%=person.gross_tips(@day)%></td>
          <td><%= person.tipout(@day) %></td>
-         <td><%="$#{person.tips(@day)}"%></td>
+         <td><%="$#{(person.tips(@day)).round}"%></td>
      </tr>
      <% end %>
    <% end %>

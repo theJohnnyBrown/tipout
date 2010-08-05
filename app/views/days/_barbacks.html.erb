@@ -21,13 +21,9 @@ end
       <span class="name"><%=f.label :time_out %>:</span>
       <%=f.collection_select :time_out, times, :hm_string, :hm_string,{:selected => times[30].hm_string}%>
     </li>
-    <li class="checkbox">
-      <span class="name"><%=f.label :second_floor %>:</span>
-      <%= f.check_box :second_floor %>
-    </li>
     <li class="select">
       <span class="name"><%=f.label :closing_barback %>:</span>
-      <%=f.check_box :closing_barback %>
+      <%=f.check_box :closing_barback, {:checked => "checked"} %>
     </li> 
     <li class="button">
       <%= remove_child_button "remove", f %>

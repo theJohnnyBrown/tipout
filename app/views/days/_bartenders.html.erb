@@ -10,7 +10,7 @@ end
 <div class='fields'%>
   <ul class="pageitem">
     <li class="select">
-      <span class="name"><%=f.label :person_id %>gh:</span>
+      <span class="name"><%=f.label :person_id %>:</span>
       <%=f.collection_select :person_id, bartenders, :id, :name%>
     </li>
     <li class="select">
@@ -25,10 +25,6 @@ end
       <span class="name"><%=f.label :second_floor %>:</span>
       <%= f.check_box :second_floor %>
     </li>
-    <li class="select">
-      <span class="name"><%=f.label :closing_barback %>:</span>
-      <%=f.check_box :closing_barback %>
-    </li> 
     <li class="button">
       <%= remove_child_button "remove", f %>
     </li>

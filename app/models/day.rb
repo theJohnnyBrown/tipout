@@ -58,13 +58,29 @@ class Day < ActiveRecord::Base
   end
   
   def net_tips
-    total_tips*0.75
+    if self.has_second_floor?
+      total_tips*0.75
+    else
+      total_tips*0.85
+    end
   end
   
   
   
   def second_floor
-    total_tips*0.1
+    if self.has_second_floor?
+      total_tips*0.1
+    else
+      0
+    end
+  end
+  
+  def has_second_floor?
+    result = false
+    self.shifts.each do |s|
+      result = result || s.second_floor?
+    end
+    result
   end
   
   def bartender_hourly
