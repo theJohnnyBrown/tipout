@@ -12,6 +12,10 @@ class Date
 end
 
 class Day < ActiveRecord::Base
+  validates_presence_of :total_tips
+  validates_size_of :shifts, :minimum=>2
+  validate :has_barback 
+  
   BARTENDER = 1
   BARBACK = 2
   
@@ -97,6 +101,16 @@ class Day < ActiveRecord::Base
       if (person.role == Person::BARBACK) then barbackHours = barbackHours + person.hours(self) end
     end
     barbackHours
+  end
+
+
+  def has_barback
+    result = false
+    shifts.each do |shift|
+      result = (result or shift.closing_barback)
+    end
+    if(!result) then errors.add_to_base('A day must have at least one barback') end
+    return result   
   end
   
   def times

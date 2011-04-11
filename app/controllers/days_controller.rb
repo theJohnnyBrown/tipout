@@ -13,20 +13,20 @@ class DaysController < ApplicationController
   
     @day = Day.new(params[:day])
     @day.when = (Date.today - 1) unless (@day.when)
-    @day.save
-    @day.shifts.each do |s|
-      s.time_in = "7:00 PM" unless (s.time_in)
-      s.time_out ="3:00 AM" unless (s.time_out)
-      s.save
+    if (@day.save)
+      @day.shifts.each do |s|
+        s.time_in = "7:00 PM" unless (s.time_in)
+        s.time_out ="3:00 AM" unless (s.time_out)
+        s.save
+      end
+      
+      params[:id] = @day.id
+      @people = Person.all
+      render 'show'
+    else
+      flash[:error] = "a day must have at least 1 bartender and 1 barback. don't forget to add the total tips."
+      redirect_to :action => 'new'
     end
-
-    
-    #d = Day.find_by_when @day.when
-    #Day should validate presence and uniqueness of when. then if save edit, else if Day.find_by_when(@day.when) edit that. 
-    #mind the case where we want to add bartenders to an existing shift
-    params[:id] = @day.id
-    @people = Person.all
-    render 'show'
   end
 
   def show

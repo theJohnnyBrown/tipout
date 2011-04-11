@@ -451,6 +451,48 @@ fieldset {
 	width: auto;
 }
 
+
+.flash {
+    -webkit-border-top-left-radius: 8px
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px
+    -webkit-border-bottom-right-radius: 8px;
+
+    margin: 11px 0 0 7px;
+    width: auto;
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    
+    position: relative;
+    list-style-type: none;
+    display: block;
+    height: 43px;
+    overflow: hidden;
+    border-top: 1px solid #878787;
+    width: auto; 
+
+    
+	-webkit-border-radius: 8px;
+	background-color: #fff;
+	border: #878787 solid 1px;
+	font-size: 12pt;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 3px 9px 17px;
+	list-style: none;
+
+}
+
+
 .pageitem li:first-child:hover, .pageitem li:first-child a, .radiobutton:first-child input, .select:first-child select, li.button:first-child input, .bigfield:first-child input {
 	-webkit-border-top-left-radius: 8px;
 	-webkit-border-top-right-radius: 8px;
